@@ -14,7 +14,7 @@ full_name_new = f"{first_name} {last_name} .Jr"
 full_name_new.replace("Erling", "E.")
 
 # %%
-full_name_new = "Arie Twigt"
+#full_name_new = "Arie Twigt"
 first_letter = full_name_new[0]
 full_name_new.replace(first_name, first_letter)
 # %% c.
@@ -25,5 +25,12 @@ last_name_str = " ".join(last_name)
 
 full_name_2 = f"{first_name} {last_name_str}"
 full_name_2
+
+# %% Assignment 3
+nationality = "Norway"
+
+# %%
+sententce = f"{full_name_new} - Nationality: {nationality}"
+print(sententce)
 
 # %%
