@@ -23,4 +23,5 @@ f"{first_letter}. {last_name} .Jr"
 name_abbrv = f"{first_letter}. {last_name} .Jr"
 nationality = "Norway"
 sentence = f"{name_abbrv} - Nationality: {nationality}"
+sentence
 # %%
