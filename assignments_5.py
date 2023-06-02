@@ -7,7 +7,7 @@ if first_letter == "a":
     print("Your name starts with an a")
 
 #%% Assignment 2
-vowels = ['a', 'e', 'o', 'u', 'i']
+vowels = ['a', 'e', 'o', 'u', 'i', 'y']
 
 my_name = input("What is your name?")
 
@@ -26,6 +26,7 @@ else:
 # %% b.
 import string
 import random
+
 
 letters = string.ascii_letters
 vowels = ['a', 'e', 'o', 'u', 'i']
