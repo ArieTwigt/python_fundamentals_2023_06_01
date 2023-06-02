@@ -20,3 +20,14 @@ def remove_vowels(name:str) -> str:
             new_name += letter
 
     return new_name
+
+
+def capitalize_names(names_list):
+
+    new_names_list = []
+
+    for name in names_list:
+        name_capitalized = name.capitalize()
+        new_names_list.append(name_capitalized)
+
+    return new_names_list

@@ -1,5 +1,6 @@
 import math
 
+
 def calc_pythagoras(a: float, b: float, 
                     rounding:int=1,
                     return_both=False) -> float:
@@ -22,3 +23,19 @@ def calc_pythagoras(a: float, b: float,
         return c_rounded, c
     else:
         return c_rounded
+
+
+def contents_box(length: float, width: float, height: float) -> float:
+    '''
+    Function that returns the contents of a box:
+
+    Params:
+    * length
+    * width
+    * height
+
+    Returns:
+    * contents 
+    '''
+    content = length * width * height
+    return content
