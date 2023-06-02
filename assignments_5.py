@@ -45,4 +45,19 @@ else:
     random_letter = random.choice(vowels)
     my_name = my_name.replace(my_name[0], random_letter.upper())
     print(my_name)
-# %%
+
+#%% Assignment 4a
+my_age =  int(input("What is your age?"))  
+
+if my_age > 18 and my_age < 68:
+    print("You are between 18 and 68")
+else:
+    print("You are not")
+
+
+# %% Assignment 4b
+my_age =  int(input("What is your age?"))  
+
+if 18 < my_age <  68:
+    print("You are between 18 and 68")
+
