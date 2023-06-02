@@ -24,4 +24,6 @@ print(files_in_dir)
 # %% Assignment 4
 os.mkdir("our_functions")
 
+# %% change working directory
+os.chdir("our_functions")
 # %%
